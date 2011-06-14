@@ -1,7 +1,7 @@
 describe "Life" do
   
-  it "does something" do
-    true.should be_true
+  it "fails" do
+    true.should be_false
   end
   
 end

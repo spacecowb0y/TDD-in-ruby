@@ -1,4 +1,5 @@
 GEM
+  remote: http://rubygems.org/
   specs:
     diff-lcs (1.1.2)
     growl (1.0.3)
@@ -6,6 +7,8 @@ GEM
       thor (~> 0.14.6)
     guard-rspec (0.3.1)
       guard (>= 0.2.2)
+    guard-shell (0.1.1)
+      guard (>= 0.2.0)
     rb-fsevent (0.4.0)
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
@@ -24,5 +27,6 @@ DEPENDENCIES
   growl
   guard
   guard-rspec
+  guard-shell
   rb-fsevent
   rspec
